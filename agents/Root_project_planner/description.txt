@@ -1,0 +1,1 @@
+A sequential AI pipeline that transforms a project description into a complete project plan: task breakdown → sprint planning with workload distribution → risk identification and time estimation.

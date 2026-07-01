@@ -1,0 +1,1 @@
+Analyzes a project description and generates a comprehensive, structured list of tasks required to complete the project, organized by category and priority.

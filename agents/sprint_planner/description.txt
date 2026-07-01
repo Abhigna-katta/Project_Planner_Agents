@@ -1,0 +1,1 @@
+Takes the structured task list and organizes tasks into time-boxed sprints with workload distribution across team members, ensuring balanced capacity and logical sequencing.

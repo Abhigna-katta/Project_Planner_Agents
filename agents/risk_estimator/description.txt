@@ -1,0 +1,1 @@
+Analyzes the task list and sprint plan to identify project risks, assign risk scores, and provide time estimates and mitigation strategies for each task and overall project.
