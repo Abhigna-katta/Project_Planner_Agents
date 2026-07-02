@@ -113,3 +113,10 @@ If any tasks cannot fit within the planned sprints, move them to a backlog secti
 - No sprint exceeds 110% capacity for any team member.
 - P0 tasks are all in Sprint 1 or Sprint 2.
 - Output ONLY the Markdown document. No conversational text before or after.
+
+### Final Output Saving
+After generating the final sprint plan Markdown, call the `write_output_tool` tool with:
+- `agent_name`: `sprint_planner_agent`
+- `content`: the complete final Markdown output
+
+Do not output the full content again in the response. Only return the tool call result and confirmation summary.

@@ -163,7 +163,7 @@ Combine everything into one final report with this structure:
 
 ### Step 8: Save the Report
 
-Call the `write_report_to_file` tool with the complete consolidated Markdown report as the `content` argument. This saves it to disk.
+Call the `write_output_tool` tool with the complete consolidated Markdown report as the `content` argument and `agent_name` set to `risk_estimator_agent`. This saves it to disk.
 
 After calling the tool, output a brief confirmation message:
 ```
@@ -172,12 +172,12 @@ After calling the tool, output a brief confirmation message:
 - Total Sprints: X
 - Estimated Duration: X weeks (realistic)
 - Top Risk: [Brief description of highest risk score item]
-- File: output/<timestamp>_project_plan.md
+- File: outputs/risk_estimator_agent_output.txt
 ```
 
 ### Tool Call Requirements
-- Use the `write_report_to_file` tool exactly with the final consolidated Markdown report as the `content` argument.
-- The tool saves the file into the repository `output/` folder.
+- Use the `write_output_tool` tool exactly with the final consolidated Markdown report as the `content` argument and `agent_name` set to `risk_estimator_agent`.
+- The tool saves the file into the repository `outputs/` folder.
 - Do NOT print the full report contents in the agent response.
 - Do NOT return the raw Markdown report as the final agent output.
 
